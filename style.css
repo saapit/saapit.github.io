@@ -44,7 +44,7 @@ body {
     margin-bottom: 12px;
 }
 
-button {
+a {
     border: none;
     padding: 12px 24px;
     border-radius: 50px;
@@ -56,12 +56,13 @@ button {
     margin: 0 auto;
     /* button default is inline-block */
     display: block; 
+    text-align: center;
 
     transition: all 200ms ease-in-out;
     cursor: pointer;
 }
 
-button:focus, button:hover {
+a:focus, a:hover {
     background-color: #0077ff;
     color: #e0efff;
 }
